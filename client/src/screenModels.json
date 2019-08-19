@@ -13,6 +13,9 @@
       },
       "password": {
         "type": "string"
+      },
+      "errorMessage": {
+        "type": "string"
       }
     },
     "id": "blank"
