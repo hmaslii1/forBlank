@@ -1,6 +1,13 @@
 {
   "menu": {
     "type": "object",
-    "properties": {}
+    "properties": {},
+    "id": "menu"
+  },
+  "blank": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {},
+    "id": "blank"
   }
 }

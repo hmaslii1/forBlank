@@ -1,8 +1,16 @@
 {
   "id": "__BASE__",
   "name": "testBlank",
-  "screens": [],
+  "screens": [
+    {
+      "id": "blank",
+      "name": "Blank",
+      "sourceScreenId": "blank",
+      "sourceAppId": "default"
+    }
+  ],
   "statusbarContent": "dark",
   "statusbarHidden": false,
-  "statusbarBackground": null
+  "statusbarBackground": null,
+  "startScreen": "blank"
 }
