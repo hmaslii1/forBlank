@@ -11,6 +11,11 @@
       "type": "action",
       "control": "action.click",
       "selector": "a[href='/issues?assigned_to_id=me&set_filter=1&sort=priority%3Adesc%2Cupdated_on%3Adesc']"
+    },
+    "isHome": {
+      "type": "identifier",
+      "control": "exists",
+      "selector": "h1"
     }
   },
   "id": "homeiconcolorblocks",
