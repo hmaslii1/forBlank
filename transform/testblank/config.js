@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // startURL - URL to start the transform at.
-    startURL: 'https://wiki.softjourn.if.ua',
+    startURL: 'http://redmine.dev.powwowinc.net/login/',
     eventDetection: {
         // debounceTime - Detect changes once there have been no events for this long
         debounceTime: 500,
@@ -43,5 +43,6 @@ module.exports = {
     },
     autoResize: true,
     // Pass along cookies that are given via the command line to the transform.
-    useCookies: true
+    useCookies: true,
+    authWhitelistUrls: ''
 };
