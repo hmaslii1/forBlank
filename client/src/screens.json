@@ -1,5 +1,8 @@
 {
   "id": "__BASE__",
   "name": "testBlank",
-  "screens": []
+  "screens": [],
+  "statusbarContent": "dark",
+  "statusbarHidden": false,
+  "statusbarBackground": null
 }
