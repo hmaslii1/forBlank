@@ -16,6 +16,9 @@
       },
       "errorMessage": {
         "type": "string"
+      },
+      "Submit": {
+        "type": "action"
       }
     },
     "id": "blank"
