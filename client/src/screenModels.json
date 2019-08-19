@@ -21,7 +21,8 @@
         "type": "action"
       }
     },
-    "id": "blank"
+    "id": "blank",
+    "sourcePath": "blank"
   },
   "homeiconcolorblocks": {
     "type": "object",
