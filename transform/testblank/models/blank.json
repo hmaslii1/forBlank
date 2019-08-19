@@ -21,8 +21,20 @@
       "type": "action",
       "control": "action.click",
       "selector": "input[type='submit']"
+    },
+    "isLogin": {
+      "type": "string"
     }
   },
   "id": "blank",
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "event": "login"
+    },
+    {
+      "match": [],
+      "event": "blank"
+    }
+  ]
 }
