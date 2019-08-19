@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "comment": "Blank",
+  "properties": {
+    "help": {
+      "type": "action"
+    },
+    "alerts": {
+      "type": "action"
+    },
+    "newIssue": {
+      "type": "action"
+    },
+    "monitor": {
+      "type": "action"
+    },
+    "unassigned": {
+      "type": "action"
+    },
+    "assigned": {
+      "type": "action"
+    }
+  },
+  "id": "homeiconcolorblocks",
+  "connect": []
+}
