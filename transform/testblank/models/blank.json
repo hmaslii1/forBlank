@@ -3,16 +3,24 @@
   "comment": "Blank",
   "properties": {
     "username": {
-      "type": "string"
+      "type": "string",
+      "control": "text",
+      "selector": "input[type='text'][id='username']"
     },
     "password": {
-      "type": "string"
+      "type": "string",
+      "control": "text",
+      "selector": "input[type='password'][id='password']"
     },
     "errorMessage": {
-      "type": "string"
+      "type": "string",
+      "control": "property.innerHTML",
+      "selector": "div[id='flash_error']"
     },
     "Submit": {
-      "type": "action"
+      "type": "action",
+      "control": "action.click",
+      "selector": "input[type='submit']"
     }
   },
   "id": "blank",
