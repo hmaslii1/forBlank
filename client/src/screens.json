@@ -7,6 +7,12 @@
       "name": "Blank",
       "sourceScreenId": "blank",
       "sourceAppId": "default"
+    },
+    {
+      "id": "homeiconcolorblocks",
+      "name": "HomeIconColorBlocks",
+      "sourceScreenId": "Home_homeiconcolorblocks",
+      "sourceAppId": "StrawberryTemplates"
     }
   ],
   "statusbarContent": "dark",
